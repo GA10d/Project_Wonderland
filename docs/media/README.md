@@ -13,7 +13,7 @@ Captured on 2026-09-10. These images show saved Wonderland scenes rendered by th
 | `volcano-exterior.png`, `volcano-interior.png` | `worlds/9a59e2b1a0a8/world.json` | Game renderer, 960×720 |
 | `snow-exterior.png`, `snow-interior.png` | `worlds/76621d0b42b2/world.json` | Exterior 1280×1280 to include the peaks; interior 960×720 |
 | `cyberpunk-exterior.png`, `cyberpunk-interior.png` | `worlds/137a764fe0c8/world.json` | Additional game-rendered views, 960×720 |
-| `app-studio.png` | Cyberpunk scene in the studio / 创作台中的赛博朋克场景 | F2 in the live app, 1280×900 |
+| `app-studio.png` | Snowy mountain house in the studio / 创作台中的雪山大木屋 | F2 in the live app, 1280×900 |
 | `app-explore.png` | Approach the apartment door / 走到公寓门口 | Live keyboard movement, then F2, 1280×900 |
 | `app-interior.png` | Enter the apartment / 进入公寓 | Press E in the live app, then F2, 1280×900 |
 

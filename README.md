@@ -16,7 +16,7 @@ Describe a supermarket, an office, a demon's volcanic palace, or a cabin in the 
 
 ![Wonderland running on macOS: a single prompt and its generated scene](docs/media/app-studio.png)
 
-*The actual local app, with a scene generated from “生成一个赛博朋克世界” — “Generate a cyberpunk world.” The prototype UI currently uses Chinese.*
+*The actual local app, with a scene generated from “雪山场景，有一个巨大的房屋，里面有壁炉和床” — “A snowy mountain scene with a huge house, with a fireplace and a bed inside.” The prototype UI currently uses Chinese.*
 
 ## Zero-shot, from description to exploration
 
@@ -79,7 +79,7 @@ Snow-covered ground and mountain scenery surround a large wooden house with a fu
 
 ## See it running
 
-From the same short cyberpunk prompt shown above: approach the building, press **E**, and enter its room. These frames were saved from the running macOS app.
+Here is a second zero-shot example generated from “Generate a cyberpunk world”: approach the building, press **E**, and enter its room. These frames were saved from the running macOS app.
 
 | Approach the door | Explore the interior |
 | :---: | :---: |
