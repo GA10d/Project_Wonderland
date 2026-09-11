@@ -1,0 +1,9 @@
+# Models are explicit and configurable. `doctor --api` checks account access.
+[models]
+llm_model = "gpt-6-astra"
+image_model = "gpt-image-2.5-sunburst"
+image_quality = "high"
+
+[generation]
+max_new_assets = 3
+max_image_attempts = 2

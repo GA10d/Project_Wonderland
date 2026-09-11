@@ -1,0 +1,28 @@
+# Local credentials
+key.env
+.env
+.env.*
+!.env.example
+
+# Licensed artwork and generated artwork (never redistribute in Git)
+assets/raw/
+assets/normalized/
+assets/generated/
+assets/previews/
+
+# Local databases, generated worlds and logs
+data/
+worlds/
+logs/
+screenshots/
+
+# Python and OS files
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+dist/
+build/

@@ -1,0 +1,1440 @@
+{
+  "version": 2,
+  "source_cell": 16,
+  "runtime_cell": 32,
+  "style": "limezu-modern-16",
+  "author": "LimeZu",
+  "definitions": [
+    {
+      "id": "house.country",
+      "name": "乡间木屋",
+      "category": "building",
+      "source": "modernexteriors-win/Modern_Exteriors_16x16/Modern_Exteriors_Complete_Singles_16x16/24_Additional_Houses_Country_House_No_Banisters_16x16.png",
+      "tags": [
+        "house",
+        "cottage",
+        "wood",
+        "乡间",
+        "木屋"
+      ],
+      "anchor": [
+        144,
+        250
+      ],
+      "collision": [
+        -124,
+        -74,
+        248,
+        74
+      ],
+      "door": [
+        -8,
+        8
+      ],
+      "crop": null
+    },
+    {
+      "id": "house.cabin",
+      "name": "林间小屋",
+      "category": "building",
+      "source": "modernexteriors-win/Modern_Exteriors_16x16/Modern_Exteriors_Complete_Singles_16x16/ME_Singles_Camping_16x16_Mobile_House_Small_3.png",
+      "tags": [
+        "cabin",
+        "small house",
+        "小屋"
+      ],
+      "anchor": [
+        48,
+        94
+      ],
+      "collision": [
+        -42,
+        -28,
+        84,
+        28
+      ],
+      "door": [
+        -16,
+        6
+      ],
+      "crop": null
+    },
+    {
+      "id": "tree.oak",
+      "name": "橡树",
+      "category": "nature",
+      "source": "Modern_Farm_v1/16x16/Single_Files_16x16/Trees_16x16/Tree_Oak_Green_Medium_16x16.png",
+      "tags": [
+        "oak",
+        "tree",
+        "green",
+        "树",
+        "橡树"
+      ],
+      "anchor": [
+        32,
+        78
+      ],
+      "collision": [
+        -5,
+        -5,
+        10,
+        7
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "tree.pine",
+      "name": "松树",
+      "category": "nature",
+      "source": "Modern_Farm_v1/16x16/Single_Files_16x16/Trees_16x16/Tree_Pine_Green_Medium_16x16.png",
+      "tags": [
+        "pine",
+        "forest",
+        "tree",
+        "松树",
+        "树林"
+      ],
+      "anchor": [
+        32,
+        78
+      ],
+      "collision": [
+        -5,
+        -5,
+        10,
+        7
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "prop.well",
+      "name": "木顶水井",
+      "category": "prop",
+      "source": "Modern_Farm_v1/16x16/Single_Files_16x16/Props_and_Buildings_16x16/Well_Usable_16x16.png",
+      "tags": [
+        "well",
+        "水井"
+      ],
+      "anchor": [
+        24,
+        30
+      ],
+      "collision": [
+        -7,
+        -8,
+        14,
+        10
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "prop.rock",
+      "name": "岩石",
+      "category": "nature",
+      "source": "Modern_Farm_v1/16x16/Single_Files_16x16/Props_and_Buildings_16x16/Rock_Medium_16x16.png",
+      "tags": [
+        "rock",
+        "stone",
+        "石头"
+      ],
+      "anchor": [
+        16,
+        30
+      ],
+      "collision": [
+        -7,
+        -8,
+        14,
+        10
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "prop.sign",
+      "name": "木牌",
+      "category": "prop",
+      "source": "Modern_Farm_v1/16x16/Single_Files_16x16/Props_and_Buildings_16x16/Sign_1_16x16.png",
+      "tags": [
+        "sign",
+        "wood",
+        "路牌"
+      ],
+      "anchor": [
+        8,
+        14
+      ],
+      "collision": [
+        -7,
+        -8,
+        14,
+        10
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "prop.hay",
+      "name": "干草堆",
+      "category": "prop",
+      "source": "Modern_Farm_v1/16x16/Single_Files_16x16/Props_and_Buildings_16x16/Hay_Dry_Pile_16x16.png",
+      "tags": [
+        "hay",
+        "farm",
+        "干草"
+      ],
+      "anchor": [
+        16,
+        14
+      ],
+      "collision": [
+        -7,
+        -8,
+        14,
+        10
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "prop.pumpkin",
+      "name": "南瓜",
+      "category": "prop",
+      "source": "Modern_Farm_v1/16x16/Single_Files_16x16/Props_and_Buildings_16x16/Pumpkin_Small_16x16.png",
+      "tags": [
+        "pumpkin",
+        "farm",
+        "南瓜"
+      ],
+      "anchor": [
+        24,
+        43
+      ],
+      "collision": null,
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "furniture.cabinet",
+      "name": "木柜",
+      "category": "furniture",
+      "source": "moderninteriors-win/1_Interiors/16x16/Theme_Sorter_Shadowless_Singles/2_Living_Room_Singles_Shadowless/Living_Room_Singles_Shadowless_1.png",
+      "tags": [
+        "cabinet",
+        "storage",
+        "柜"
+      ],
+      "anchor": [
+        16,
+        41
+      ],
+      "collision": [
+        -13,
+        -16,
+        26,
+        18
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "furniture.plant",
+      "name": "盆栽",
+      "category": "furniture",
+      "source": "moderninteriors-win/1_Interiors/16x16/Theme_Sorter_Shadowless_Singles/2_Living_Room_Singles_Shadowless/Living_Room_Singles_Shadowless_13.png",
+      "tags": [
+        "plant",
+        "pot",
+        "盆栽"
+      ],
+      "anchor": [
+        16,
+        37
+      ],
+      "collision": [
+        -5,
+        -6,
+        10,
+        8
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "furniture.table",
+      "name": "木桌",
+      "category": "furniture",
+      "source": "moderninteriors-win/1_Interiors/16x16/Theme_Sorter_Shadowless_Singles/2_Living_Room_Singles_Shadowless/Living_Room_Singles_Shadowless_29.png",
+      "tags": [
+        "table",
+        "coffee table",
+        "桌"
+      ],
+      "anchor": [
+        16,
+        27
+      ],
+      "collision": [
+        -15,
+        -12,
+        30,
+        14
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "furniture.lamp",
+      "name": "落地灯",
+      "category": "furniture",
+      "source": "moderninteriors-win/1_Interiors/16x16/Theme_Sorter_Shadowless_Singles/2_Living_Room_Singles_Shadowless/Living_Room_Singles_Shadowless_79.png",
+      "tags": [
+        "lamp",
+        "light",
+        "灯"
+      ],
+      "anchor": [
+        8,
+        38
+      ],
+      "collision": [
+        -5,
+        -5,
+        10,
+        7
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "furniture.chair",
+      "name": "木椅",
+      "category": "furniture",
+      "source": "moderninteriors-win/1_Interiors/16x16/Theme_Sorter_Shadowless_Singles/2_Living_Room_Singles_Shadowless/Living_Room_Singles_Shadowless_93.png",
+      "tags": [
+        "chair",
+        "seat",
+        "椅"
+      ],
+      "anchor": [
+        8,
+        21
+      ],
+      "collision": [
+        -6,
+        -7,
+        12,
+        9
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "furniture.fireplace",
+      "name": "壁炉",
+      "category": "furniture",
+      "source": "moderninteriors-win/1_Interiors/16x16/Theme_Sorter_Shadowless_Singles/2_Living_Room_Singles_Shadowless/Living_Room_Singles_Shadowless_111.png",
+      "tags": [
+        "fireplace",
+        "stove",
+        "壁炉"
+      ],
+      "anchor": [
+        16,
+        38
+      ],
+      "collision": [
+        -15,
+        -12,
+        30,
+        14
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "furniture.bed",
+      "name": "单人床",
+      "category": "furniture",
+      "source": "moderninteriors-win/1_Interiors/16x16/Theme_Sorter_Shadowless_Singles/4_Bedroom_Singles_Shadowless/Bedroom_Singles_Shadowless_140.png",
+      "tags": [
+        "bed",
+        "sleep",
+        "床"
+      ],
+      "anchor": [
+        8,
+        36
+      ],
+      "collision": [
+        -8,
+        -25,
+        16,
+        28
+      ],
+      "door": null,
+      "crop": null
+    },
+    {
+      "id": "tile.grass",
+      "name": "草地",
+      "category": "tile",
+      "source": "Modern_Farm_v1/16x16/1_Terrains_16x16.png",
+      "tags": [
+        "grass",
+        "草地"
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "collision": null,
+      "door": null,
+      "crop": null,
+      "fill_from_pixel": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tile.floor",
+      "name": "木地板",
+      "category": "tile",
+      "source": "moderninteriors-win/1_Interiors/16x16/Room_Builder_subfiles/Room_Builder_Floors_16x16.png",
+      "tags": [
+        "floor",
+        "wood",
+        "木地板"
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        80,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "tile.wall_top",
+      "name": "室内墙面",
+      "category": "tile",
+      "source": "moderninteriors-win/1_Interiors/16x16/Room_Builder_subfiles/Room_Builder_Walls_16x16.png",
+      "tags": [
+        "wall",
+        "墙"
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        16,
+        96,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "tile.wall_bottom",
+      "name": "室内墙面",
+      "category": "tile",
+      "source": "moderninteriors-win/1_Interiors/16x16/Room_Builder_subfiles/Room_Builder_Walls_16x16.png",
+      "tags": [
+        "wall",
+        "墙"
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        16,
+        112,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "player.left.idle",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        0,
+        0,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.up.idle",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        48,
+        0,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.right.idle",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        96,
+        0,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.down.idle",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        144,
+        0,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.left.0",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        0,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.left.1",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        48,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.left.2",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        96,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.left.3",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        144,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.left.4",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        192,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.left.5",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        240,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.up.0",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        288,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.up.1",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        336,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.up.2",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        384,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.up.3",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        432,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.up.4",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        480,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.up.5",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        528,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.right.0",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        576,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.right.1",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        624,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.right.2",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        672,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.right.3",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        720,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.right.4",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        768,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.right.5",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        816,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.down.0",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        864,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.down.1",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        912,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.down.2",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        960,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.down.3",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        1008,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.down.4",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        1056,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "player.down.5",
+      "name": "农场角色",
+      "category": "character",
+      "source": "Modern_Farm_v1/16x16/Characters_16x16/Farmer_1_16x16.png",
+      "tags": [
+        "player"
+      ],
+      "anchor": [
+        24,
+        62
+      ],
+      "collision": null,
+      "door": null,
+      "crop": [
+        1104,
+        128,
+        48,
+        64
+      ]
+    },
+    {
+      "id": "office.workstation",
+      "name": "双屏办公工位（桌子、双屏电脑、键鼠、办公椅）",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_248.png",
+      "tags": [
+        "office",
+        "办公",
+        "workstation",
+        "工位",
+        "computer",
+        "电脑",
+        "supplies",
+        "办公用品"
+      ],
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        {
+          "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_248.png",
+          "crop": [
+            0,
+            16,
+            32,
+            19
+          ],
+          "at": [
+            0,
+            15
+          ]
+        },
+        {
+          "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_227.png",
+          "crop": [
+            0,
+            18,
+            32,
+            23
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_101.png",
+          "crop": [
+            0,
+            23,
+            16,
+            23
+          ],
+          "at": [
+            8,
+            25
+          ]
+        }
+      ],
+      "anchor": [
+        16,
+        46
+      ],
+      "collision": [
+        -16,
+        -28,
+        32,
+        28
+      ]
+    },
+    {
+      "id": "office.supplies_desk",
+      "name": "办公用品工位（桌子、电脑、打印机、文件、办公椅）",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_284.png",
+      "tags": [
+        "office",
+        "办公",
+        "workstation",
+        "工位",
+        "computer",
+        "电脑",
+        "supplies",
+        "办公用品"
+      ],
+      "canvas": [
+        32,
+        48
+      ],
+      "layers": [
+        {
+          "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_284.png",
+          "crop": [
+            0,
+            16,
+            32,
+            19
+          ],
+          "at": [
+            0,
+            15
+          ]
+        },
+        {
+          "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_233.png",
+          "crop": [
+            4,
+            17,
+            28,
+            23
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_101.png",
+          "crop": [
+            0,
+            23,
+            16,
+            23
+          ],
+          "at": [
+            8,
+            25
+          ]
+        }
+      ],
+      "anchor": [
+        16,
+        46
+      ],
+      "collision": [
+        -16,
+        -28,
+        32,
+        28
+      ]
+    },
+    {
+      "id": "office.printer",
+      "name": "打印机与文件操作台",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_323.png",
+      "crop": [
+        3,
+        12,
+        26,
+        27
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "printer"
+      ],
+      "anchor": [
+        13,
+        26
+      ],
+      "collision": [
+        -13,
+        -9,
+        26,
+        9
+      ]
+    },
+    {
+      "id": "office.coffee",
+      "name": "咖啡机与杯子操作台",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_320.png",
+      "crop": [
+        4,
+        7,
+        26,
+        32
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "coffee"
+      ],
+      "anchor": [
+        13,
+        31
+      ],
+      "collision": [
+        -13,
+        -10,
+        26,
+        10
+      ]
+    },
+    {
+      "id": "office.water",
+      "name": "办公室饮水机",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_173.png",
+      "crop": [
+        1,
+        8,
+        14,
+        30
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "water"
+      ],
+      "anchor": [
+        7,
+        29
+      ],
+      "collision": [
+        -7,
+        -10,
+        14,
+        10
+      ]
+    },
+    {
+      "id": "office.server",
+      "name": "办公室服务器机柜",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_176.png",
+      "crop": [
+        5,
+        5,
+        23,
+        34
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "server"
+      ],
+      "anchor": [
+        11,
+        33
+      ],
+      "collision": [
+        -12,
+        -11,
+        23,
+        11
+      ]
+    },
+    {
+      "id": "office.whiteboard",
+      "name": "会议白板",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_170.png",
+      "crop": [
+        1,
+        23,
+        30,
+        23
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "whiteboard"
+      ],
+      "anchor": [
+        15,
+        22
+      ],
+      "collision": null
+    },
+    {
+      "id": "office.chair",
+      "name": "办公转椅",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_101.png",
+      "crop": [
+        0,
+        23,
+        16,
+        23
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "chair"
+      ],
+      "anchor": [
+        8,
+        22
+      ],
+      "collision": [
+        -8,
+        -7,
+        16,
+        7
+      ]
+    },
+    {
+      "id": "office.plant",
+      "name": "办公室绿植",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_98.png",
+      "crop": [
+        0,
+        10,
+        16,
+        28
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "plant"
+      ],
+      "anchor": [
+        8,
+        27
+      ],
+      "collision": [
+        -8,
+        -9,
+        16,
+        9
+      ]
+    },
+    {
+      "id": "office.recycling",
+      "name": "蓝色分类垃圾桶",
+      "category": "furniture",
+      "source": "Modern_Office_Revamped_v1/4_Modern_Office_singles/16x16/Modern_Office_Singles_329.png",
+      "crop": [
+        2,
+        20,
+        13,
+        21
+      ],
+      "tags": [
+        "office",
+        "办公",
+        "办公用品",
+        "recycling"
+      ],
+      "anchor": [
+        6,
+        20
+      ],
+      "collision": [
+        -7,
+        -7,
+        13,
+        7
+      ]
+    },
+    {
+      "id": "tile.office_floor",
+      "name": "浅灰办公室地砖",
+      "category": "tile",
+      "source": "Modern_Office_Revamped_v1/1_Room_Builder_Office/Room_Builder_Office_16x16.png",
+      "crop": [
+        160,
+        80,
+        16,
+        16
+      ],
+      "tags": [
+        "office",
+        "floor"
+      ],
+      "anchor": [
+        0,
+        0
+      ]
+    }
+  ]
+}

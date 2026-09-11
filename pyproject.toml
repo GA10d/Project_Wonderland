@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wonderland-scenes"
+version = "0.1.0"
+description = "Prompt-driven local pixel worlds with a curated asset library"
+requires-python = ">=3.11"
+dependencies = [
+  "pygame-ce>=2.5.5,<3",
+  "Pillow>=11,<13",
+  "openai>=2,<4",
+  "pydantic>=2.10,<3",
+  "python-dotenv>=1,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+wonderland = "wonderland.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["wonderland*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
